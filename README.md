@@ -23,3 +23,4 @@ La lógica está programada en C++ sobre una placa [Arduino](https://www.arduino
 * [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
 * [PlatormIO](https://platformio.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Fritzing](https://fritzing.org/)
