@@ -43,7 +43,7 @@ void elevatorEnd(uint8_t floor);
 void setup()
 {
   Light::init(LIGHT_DATA_PIN);
-  Display::init(displayPins);
+  Display::init(displayPins, LOW);
   Keypad::init(keypadPins, arrayLength(keypadPins), keypadHandler);
   LedIndicator::init(ledIndicatorPins, arrayLength(ledIndicatorPins));
   Elevator::init(elevatorFloorPins, arrayLength(elevatorFloorPins), ELEVATOR_ENGINE_PIN_A,
